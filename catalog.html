@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог растений — Питомник Кукушкин</title>
+  <meta name="description" content="Каталог декоративных растений питомника Кукушкина. Хвойные, лиственные деревья, кустарники. Более 200 видов и редких сортов." />
+  <link rel="icon" href="/images/logo_.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    /* Plant modal */
+    #plantModal {
+      position: fixed; inset: 0; z-index: 9999;
+      opacity: 0; pointer-events: none;
+      transition: opacity .3s;
+    }
+    #plantModal.active { opacity: 1; pointer-events: all; }
+    .modal-backdrop {
+      position: absolute; inset: 0;
+      background: rgba(5,15,8,.75);
+      backdrop-filter: blur(6px);
+    }
+    .modal-box {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%) scale(.94);
+      width: min(900px, 95vw);
+      max-height: 90vh;
+      background: #fff;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      box-shadow: var(--shadow-xl);
+      transition: transform .35s var(--ease-out);
+    }
+    #plantModal.active .modal-box { transform: translate(-50%,-50%) scale(1); }
+    .modal-img-wrap { position: relative; overflow: hidden; }
+    .modal-img { width: 100%; height: 100%; object-fit: cover; min-height: 360px; }
+    .modal-badge { position: absolute; top: 1rem; left: 1rem; }
+    .modal-close {
+      position: absolute; top: 1rem; right: 1rem; z-index: 1;
+      width: 36px; height: 36px; border-radius: 50%;
+      background: rgba(0,0,0,.35); color: #fff; font-size: 1rem;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; backdrop-filter: blur(4px);
+      transition: background .2s;
+    }
+    .modal-close:hover { background: rgba(0,0,0,.6); }
+    .modal-body {
+      padding: 2.5rem 2rem 2.5rem 2.5rem;
+      overflow-y: auto;
+      max-height: 90vh;
+    }
+    .modal-cat { font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--clr-moss); margin-bottom: .5rem; }
+    .modal-title { font-family: var(--ff-heading); font-size: 2.2rem; font-weight: 900; color: var(--clr-forest); line-height: 1.1; margin-bottom: .3rem; }
+    .modal-latin { font-family: var(--ff-display); font-style: italic; color: var(--clr-sage); margin-bottom: 1.2rem; }
+    .modal-desc { color: var(--clr-dark); line-height: 1.75; margin-bottom: 1.5rem; font-size: .95rem; }
+    .modal-section { margin-bottom: 1.5rem; }
+    .modal-section h4 { font-family: var(--ff-heading); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--clr-moss); margin-bottom: .8rem; }
+    .char-grid { display: grid; gap: .5rem; }
+    .char-item { display: flex; justify-content: space-between; gap: 1rem; padding: .5rem .8rem; background: var(--clr-cream); border-radius: var(--radius-sm); }
+    .char-key { font-size: .82rem; color: var(--clr-moss); text-transform: capitalize; }
+    .char-val { font-size: .82rem; font-weight: 600; color: var(--clr-dark); text-align: right; max-width: 55%; }
+    .variety-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .modal-actions { display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
+    @media (max-width: 640px) {
+      .modal-box { grid-template-columns: 1fr; }
+      .modal-img-wrap { display: none; }
+    }
+  </style>
+</head>
+<body data-page="catalog">
+
+  <!-- NAV -->
+  <nav class="site-nav nav-scrolled" id="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="https://static.tildacdn.pro/tild3233-6361-4036-b135-303661646437/photo.png" alt="Питомник Кукушкин" class="header__logo-img">
+      </a>
+      <ul class="nav-links">
+        <li><a href="/">Главная</a></li>
+        <li><a href="/catalog.html" class="active">Каталог</a></li>
+        <li><a href="/gallery.html">Галерея</a></li>
+        <li><a href="/services.html">Услуги</a></li>
+        <li><a href="/contacts.html">Контакты</a></li>
+      </ul>
+      <a href="tel:+77022100042" class="btn btn-forest nav-cta">📞 Позвонить</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+  <div class="nav-drawer" id="navDrawer">
+    <a href="/">🏠 Главная</a>
+    <a href="/catalog.html">🌿 Каталог растений</a>
+    <a href="/gallery.html">🖼️ Галерея</a>
+    <a href="/services.html">✂️ Услуги</a>
+    <a href="/contacts.html">📞 Контакты</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero" style="padding-top: 80px;">
+    <div class="page-hero__bg" id="catHero" style="background-image: url('/images/Abies_koreana.jpg');"></div>
+    <div class="page-hero__overlay"></div>
+    <div class="container page-hero__content">
+      <div class="page-hero__breadcrumb">
+        <a href="/">Главная</a> › Каталог
+      </div>
+      <h1 class="page-hero__title" id="catTitle">Хвойные растения</h1>
+      <p class="page-hero__desc" id="catDesc">Вечнозелёные хвойные — основа любого сада</p>
+      <div style="margin-top: 1rem;">
+        <span id="catCount" class="badge" style="background:rgba(255,255,255,.2); color:#fff; font-size:.9rem;">12 видов</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATALOG CONTENT -->
+  <section class="cat-overview">
+    <div class="container">
+      <!-- Category nav -->
+      <div class="cat-nav" id="catNav" role="tablist" aria-label="Категории растений">
+        <!-- injected by JS -->
+      </div>
+      <!-- Plants grid -->
+      <div class="plants-grid" id="plantsGrid">
+        <!-- injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Plant modal -->
+  <div id="plantModal" role="dialog" aria-modal="true" aria-label="Карточка растения"></div>
+
+  <!-- CTA -->
+  <section style="background: var(--clr-forest); padding: var(--space-lg) 0; color:#fff; text-align:center;">
+    <div class="container">
+      <h2 style="font-family: var(--ff-display); font-size: clamp(1.8rem,3vw,2.8rem); margin-bottom:1rem;">Не нашли нужное растение?</h2>
+      <p style="color:rgba(255,255,255,.75); margin-bottom:2rem;">Позвоните нам — расскажем о полном ассортименте и редких видах</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="tel:+77022100042" class="btn btn-white btn-lg">📞 +7 (702) 210 00 42</a>
+        <a href="/contacts.html" class="btn btn-glass btn-lg">Написать нам</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/images/logo_.png" alt="Питомник Кукушкин">
+          <p>Питомник редких декоративных растений. 25 лет опыта.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Каталог</h4>
+          <ul>
+            <li><a href="/catalog.html?cat=coniferous">🌲 Хвойные</a></li>
+            <li><a href="/catalog.html?cat=deciduous">🌳 Лиственные</a></li>
+            <li><a href="/catalog.html?cat=shrubs">🌿 Кустарники</a></li>
+            <li><a href="/catalog.html?cat=berries">🍓 Ягодные</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/gallery.html">Галерея</a></li>
+            <li><a href="/services.html">Услуги</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <div class="footer-phones">
+            <a href="tel:+77012501771">+7 (701) 250 17 71</a>
+            <a href="tel:+77022100042">+7 (702) 210 00 42</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Питомник Кукушкина И.В.</p>
+        <p>Алматинская обл., с. Тургень</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

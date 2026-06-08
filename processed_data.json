@@ -1,0 +1,757 @@
+[
+  {
+    "groupName": "Ель",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "ЕЛЬ ЭНГЕЛЬМАНА",
+        "img": "https://static.tildacdn.pro/tild6439-3732-4637-a632-663363316330/Picea_engelmannii_Gl.jpg"
+      },
+      {
+        "name": "ЕЛЬ ОБЫКНОВЕННАЯ",
+        "img": "https://static.tildacdn.pro/tild6563-3563-4932-a330-393661643166/Picea_abies_Ohlendor.jpg"
+      },
+      {
+        "name": "ЕЛЬ СИЗАЯ",
+        "img": "https://static.tildacdn.pro/tild3732-3033-4435-b663-363631363962/Picea_glauca_Sanders.jpg"
+      },
+      {
+        "name": "ЕЛЬ ВОСТОЧНАЯ",
+        "img": "https://static.tildacdn.pro/tild6535-3033-4162-a631-323934396363/Picea_orientalis_Aur.jpg"
+      },
+      {
+        "name": "ЕЛЬ КОЛЮЧАЯ",
+        "img": "https://static.tildacdn.pro/tild3366-6663-4938-a139-386537613834/Picea_pungens_Hoopsi.jpg"
+      },
+      {
+        "name": "ЕЛЬ СИТХИНСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3738-6631-4930-b839-393235363136/Picea_sitchensis_Ten.jpg"
+      },
+      {
+        "name": "ЕЛЬ ШРЕНКА",
+        "img": "https://static.tildacdn.pro/tild3633-3639-4930-b734-643536366662/Picea_schrenkiana.jpg"
+      },
+      {
+        "name": "ЕЛЬ СЕРБСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3662-3766-4565-b866-346336313838/Picea_omorika_Pendul.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Сосна",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "СОСНА ОБЫКНОВЕННАЯ",
+        "img": "https://static.tildacdn.pro/tild6335-3465-4432-b939-393630373835/Pinus_sylvestris.jpg"
+      },
+      {
+        "name": "СОСНА МЯГКАЯ",
+        "img": "https://static.tildacdn.pro/tild3035-6663-4364-b262-616238393036/Pinus_flexilis.jpg"
+      },
+      {
+        "name": "СОСНА ЧЕРНАЯ",
+        "img": "https://static.tildacdn.pro/tild3963-3038-4432-b866-663531326434/Pinus_nigra_Oregon_G.jpg"
+      },
+      {
+        "name": "СОСНА ШВЕРИНА",
+        "img": "https://static.tildacdn.pro/tild3265-6131-4633-b732-356236343364/Pinus_schwerinii.jpg"
+      },
+      {
+        "name": "СОСНА МЕЛКОЦВЕТКОВАЯ",
+        "img": "https://static.tildacdn.pro/tild6661-6233-4232-a636-353833643635/Pinus_parv_Cuddles.jpg"
+      },
+      {
+        "name": "СОСНА КЕДРОВЫЙ СТЛАНИК",
+        "img": "https://static.tildacdn.pro/tild6331-6462-4535-b864-396132306362/Pinus_pumila_Glauca.jpg"
+      },
+      {
+        "name": "СОСНА КЕДРОВАЯ ЕВРОПЕЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3239-3931-4433-b031-393061383733/Pinus_cembra_Glauca.jpg"
+      },
+      {
+        "name": "СОСНА ДЖЕФФРИ",
+        "img": "https://static.tildacdn.pro/tild3664-3333-4937-a332-633139393736/Pinus_jeffreyi.jpg"
+      },
+      {
+        "name": "СОСНА ГОРНАЯ",
+        "img": "https://static.tildacdn.pro/tild6633-6334-4533-b230-636361383438/Pinus_mugo_Jakobsen.jpg"
+      },
+      {
+        "name": "СОСНА ГИМАЛАЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3561-6165-4663-b265-343165363262/Pinus_wallichiana.jpg"
+      },
+      {
+        "name": "СОСНА ВЕЙМУТОВА",
+        "img": "https://static.tildacdn.pro/tild6433-6531-4237-a631-363565336435/Pinus_strobus.jpg"
+      },
+      {
+        "name": "СОСНА БЕЛОКОРАЯ",
+        "img": "https://static.tildacdn.pro/tild3635-3530-4062-a161-636338643030/Pinus_leucodermis.jpg"
+      },
+      {
+        "name": "СОСНА БЕЛАЯ КИТАЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3935-3039-4861-b731-313232653239/Pinus_armandii.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Пихта",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "ПИХТА БЛАГОРОДНАЯ",
+        "img": "https://static.tildacdn.pro/tild3234-6166-4336-a235-643030613535/Abies_procera_Glauca.jpg"
+      },
+      {
+        "name": "ПИХТА БЕЛАЯ",
+        "img": "https://static.tildacdn.pro/tild3639-3934-4562-b932-303564386334/Abies_alba_Pyramidal.jpg"
+      },
+      {
+        "name": "ПИХТА ИСПАНСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3962-6261-4266-a561-323036326436/Abies_pinsapo_Aurea.jpg"
+      },
+      {
+        "name": "ПИХТА КОРЕЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3331-6535-4764-a530-663732326362/Abies_koreana.jpg"
+      },
+      {
+        "name": "ПИХТА НОРДМАНА",
+        "img": "https://static.tildacdn.pro/tild3739-3534-4133-b361-383561613932/Abies_nordmanniana.jpg"
+      },
+      {
+        "name": "ПИХТА ОДНОЦВЕТНАЯ",
+        "img": "https://static.tildacdn.pro/tild3530-3565-4365-a538-393539353363/Abies_concolor.jpg"
+      },
+      {
+        "name": "ПИХТА СИБИРСКАЯ",
+        "img": "https://static.tildacdn.pro/tild6663-6362-4562-b964-653164343338/Abies_sibirica.jpg"
+      },
+      {
+        "name": "ПИХТА СУБАЛЬПИЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild6437-3436-4433-a538-396333323738/Abies_lasiocarpa_Com.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Можжевельник",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "МОЖЖЕВЕЛЬНИК ВИРГИНСКИЙ",
+        "img": "https://static.tildacdn.pro/tild3032-3236-4935-a163-613161633731/juniperus_virginiana.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК ГОРИЗОНТАЛЬНЫЙ",
+        "img": "https://static.tildacdn.pro/tild3636-6561-4464-b438-633630656231/Juniperus_hor_Grey_P.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК КАЗАЦКИЙ",
+        "img": "https://static.tildacdn.pro/tild3363-6639-4739-b663-613436396562/Juniperus_sabina_Roc.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК КИТАЙСКИЙ",
+        "img": "https://static.tildacdn.pro/tild3532-6663-4934-a465-666533646236/Juniperus_chin_Blue_.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК ОБЫКНОВЕННЫЙ",
+        "img": "https://static.tildacdn.pro/tild3963-3561-4130-b930-326565393661/Juniperus_comm_Gold_.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК СКАЛЬНЫЙ",
+        "img": "https://static.tildacdn.pro/tild3831-3765-4634-b038-366164303632/Juniperus_scop_Pathf.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК СРЕДНИЙ",
+        "img": "https://static.tildacdn.pro/tild6466-3632-4963-a231-376165313033/Juniperus_med_King_o.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Тис",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "ТИС ЯГОДНЫЙ",
+        "img": "https://static.tildacdn.pro/tild3032-6664-4565-a461-623261636236/Taxus_baccata_David.jpg"
+      },
+      {
+        "name": "ТИС СРЕДНИЙ",
+        "img": "https://static.tildacdn.pro/tild3232-3761-4538-a231-323430393764/Taxus_media_Hillii.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Тсуга",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Тсуга канадская (Tsuga canadensis)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3361-3632-4263-b065-393265666262/Tsuga_canadensis.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Туя",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "Туя западная Даника (Danica)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3934-3763-4936-a261-363035626633/Thuja_occ_Danica.jpg"
+      },
+      {
+        "name": "Туя западная Голден Брабант (Golden Brabant)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3762-6262-4133-b164-343237333865/Thuja_occ_Golden_Bra.jpg"
+      },
+      {
+        "name": "Туя западная Голден Смарагд (Golden Smaragd)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3461-3033-4665-a539-376336626631/Thuja_occ_Golden_Sma.jpg"
+      },
+      {
+        "name": "Туя западная Холмструп (Holmstrup)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3966-6262-4839-a237-383966313431/Thuja_occ_Holmstrup.jpg"
+      },
+      {
+        "name": "Туя западная Янтарь (Jantar)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6337-6335-4134-a334-323737643061/Thuja_occ_Jantar.jpg"
+      },
+      {
+        "name": "Туя западная Олендорффи (Ohlendorffii)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3139-3365-4765-a263-643136363430/Thuja_occ_Ohlendorff.jpg"
+      },
+      {
+        "name": "Туя западная Смарагд Вариегата (Smaragd Variegata)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3265-3836-4663-b137-346439376365/Thuja_occ_Smaragd_Va.jpg"
+      },
+      {
+        "name": "Туя западная Смарагд (Smaragd)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3363-3065-4266-b165-306232653733/Thuja_occ_Smaragd.jpg"
+      },
+      {
+        "name": "Туя западная Веймар (Weimar)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6130-3265-4035-a638-363039373365/Thuja_occ_Weimar.jpg"
+      },
+      {
+        "name": "Туя западная Еллоу Риббон (Yellow Ribbon)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3839-6362-4939-a461-306264623261/Thuja_occ_Yellow_Rib.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Платикладус",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "Платикладус Ауреа Нана (Aurea Nana)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3136-6238-4766-b737-383262376634/thuja_orientalis_Aur.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Псевдотсуга",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "Псевдотсуга Мензиса (Moerheims Fastigiata)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6536-3961-4037-a630-303866393337/Pseudotsuga_men_Moer.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Кипарисовик",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "Кипарисовик лоусона Колумнарис Глаука (Columnaris Glauca)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3338-6465-4832-b132-616330353938/Chamaecyparis_law_Co.jpg"
+      },
+      {
+        "name": "Кипарисовик лоусона Глобоза (Globosa)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3761-6164-4363-b461-616366653961/Chamaecyparis_law_Gl.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Тис",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "Цефалотаксус головчатый Фастигиата (Cephalotaxus h. Fastigiata)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3238-6138-4133-b436-396535396536/Cephalotaxus_h_Fasti.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Гинкго",
+    "categoryName": "Хвойные",
+    "cards": [
+      {
+        "name": "Гинкго билоба Марикен (Mariken)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6238-3263-4133-a166-613263363661/Ginkgo_biloba_Marike.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Магнолия",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "МАГНОЛИЯ ЗВЕЗДЧАТАЯ",
+        "img": "https://static.tildacdn.pro/tild6564-6338-4266-a138-323631663961/Magnolia_stellata_Ro.jpg"
+      },
+      {
+        "name": "МАГНОЛИЯ КОБУС",
+        "img": "https://static.tildacdn.pro/tild3231-6135-4238-b332-356431636535/Magnolia_kobus.jpg"
+      },
+      {
+        "name": "МАГНОЛИЯ ЛИЛИЕЦВЕТНАЯ НИГРА",
+        "img": "https://static.tildacdn.pro/tild6634-6133-4530-b937-343134663363/Magnolia_nigra.jpg"
+      },
+      {
+        "name": "МАГНОЛИЯ СУЛАНЖА",
+        "img": "https://static.tildacdn.pro/tild3534-6132-4531-b364-376565336233/Magnolia_soulangeana.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Алыча",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Слива растопыренная Кримсон Поинт (Prunus cerasifera Crimson Pointe)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3061-6239-4338-b435-313966366130/Prunus_cerasifera_Cr.jpg"
+      },
+      {
+        "name": "Слива растопыренная Нигра (Prunus cerasifera Nigra)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6536-6265-4664-a265-373361656135/Prunus_cerasifera_Ni.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Береза",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Береза повислая Лациниата (Betula pendula Laciniata)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3962-3137-4535-b030-666330656465/Betula_pendula_Lacin.jpg"
+      },
+      {
+        "name": "Береза повислая Роял Фрост (Betula pendula Royal Frost)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3431-3462-4036-b831-333164663664/Betula_pendula_Royal.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Боярышник",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Боярышник обыкновенный Паул Скарлет (Crataegus Pauls Scarlet)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3735-6633-4130-b762-643938303132/Crataegus_Pauls_Scar.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Вишня",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Вишня мелкопильчатая Канзан (Prunus serrulata Kanzan)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6163-3630-4430-a661-613536323636/Prunus_serrulata_Kan.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Вяз",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Вяз плакучий Мауро (Ulmus pendula Mauro)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3336-3162-4136-b132-623661376266/Ulmus_pendula_Mauro.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Дуб",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Дуб черешчатый Кримсон Спайр (Quercus robur Crimson Spire)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6239-6264-4131-b038-666461653264/Quercus_robur_Crimso.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Клен",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Клен остролистный Принцетон Голд (Acer plat. Princeton Gold)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3065-3765-4335-a235-343362323435/photo_2018-05-30_10-.jpg"
+      },
+      {
+        "name": "Клён остролистный Фаассенс Блек (Acer plat. Faassen's Black)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3837-3764-4262-a436-646530663165/Acer_plat_Faassens_B.jpg"
+      },
+      {
+        "name": "Клен остролистный Глобозум (Acer plat. Globosum)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3362-3766-4230-a338-633961333839/Acer_plat_Globosum.jpg"
+      },
+      {
+        "name": "Клен остролистный Друммонди (Acer plat. Drummondii)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6331-3132-4335-b836-306437363338/photo_2018-05-30_10-.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Крушина",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Крушина ольховидная Файн Лайн (Frangula alnus Fine Line)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6365-3733-4562-a139-646565663530/Frangula_alnus_Fine_.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Лещина",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Лещина обыкновенная Пурпуреа (Corylus avellana Purpurea)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6131-6664-4761-a561-326438646365/Corylus_avellana_Max.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Липа",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Липа мелколистная Грин Глоб (Tilia cordata Green Globe)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3965-6132-4066-b961-613432393961/Tilia_cordata_Green_.jpg"
+      },
+      {
+        "name": "Липа мелколистная Ранчо (Tilia cordata Rancho)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6239-6161-4639-b066-313039663664/Tilia_cordata_Rancho.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Робиния",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Робиния псевдоакация Фризия (Robinia pseudoacacia Frisia)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3365-6162-4233-b565-323538303330/Robinia_pseudoacacia.jpg"
+      },
+      {
+        "name": "Робиния псевдоакация Умбракулифера (Robinia pseudoacacia Umbraculifera)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3230-3733-4736-a332-353635316261/Robinia_pseudoacacia.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Сирень",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Сирень обыкновенная Кардинал (Syringa vulgaris Kardynal)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3234-3131-4436-b334-616535666232/Syringa_vulgaris_Kar.jpg"
+      },
+      {
+        "name": "Сирень обыкновенная Сенсация (Syringa vulgaris Sensation)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3938-6331-4339-b732-393530663739/Syringa_vulgaris_Sen.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Тополь",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Тополь дельтовидный Пурпл Тауэр (Populus deltoides Purple Tower)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3533-3037-4236-b463-336665386164/Populus_deltoides_Pu.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Церсис",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Церцис канадский Лавандер Твист (Cercis canadensis Lavender Twist)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3163-6138-4435-b937-373063393663/Cercis_canadensis_La.jpg"
+      },
+      {
+        "name": "Церцис канадский Руби Фолз (Cercis canadensis Ruby Falls)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3336-6238-4361-a637-616637383135/Cercis_canadensis_Ru.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Яблоня",
+    "categoryName": "Лиственные",
+    "cards": [
+      {
+        "name": "Яблоня декоративная Голден Хорнет (Malus Golden Hornet)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6237-6533-4033-b966-363761616264/Malus_Golden_Hornet.jpg"
+      },
+      {
+        "name": "Яблоня декоративная Ред Джуэл (Malus Red Jewel)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3364-3235-4731-b965-363261316536/Malus_Red_Jewel.jpg"
+      },
+      {
+        "name": "Яблоня декоративная Обелиск (Malus Red Obelisk)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3237-3961-4534-b561-396139363862/Malus_Red_Obelisk.jpg"
+      },
+      {
+        "name": "Яблоня декоративная Сентинел (Malus Red Sentinel)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3666-3434-4633-b430-363337376463/Malus_Red_Sentinel.jpg"
+      },
+      {
+        "name": "Яблоня декоративная Роялти (Malus Royalty)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3761-3630-4636-b838-326236386364/Malus_Royalty.jpg"
+      },
+      {
+        "name": "Яблоня декоративная Шугар Тайм (Malus Sugar Time)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6563-3666-4436-b639-393635656437/Malus_Sugar_Tyme.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Барбарис",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "БАРБАРИС ТУНБЕРГА",
+        "img": "https://static.tildacdn.pro/tild3861-6530-4661-b839-333135396431/Berberis_thunb_Orang.jpg"
+      },
+      {
+        "name": "БАРБАРИС ОТТАВСКИЙ",
+        "img": "https://static.tildacdn.pro/tild3839-3334-4162-b935-396166633631/Berberis_ottawensis_.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Гортензия",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "ГОРТЕНЗИЯ КРУПНОЛИСТНАЯ",
+        "img": "https://static.tildacdn.pro/tild6431-6137-4763-b763-633863333837/Hydrangea_macrophyll.jpg"
+      },
+      {
+        "name": "ГОРТЕНЗИЯ МЕТЕЛЬЧАТАЯ",
+        "img": "https://static.tildacdn.pro/tild6534-3139-4161-a361-353031663930/Hydrangea_pan_Annabe.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Вейгела",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Вейгела цветущая Бристол Руби (Weigela florida Bristol Ruby)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6166-3539-4065-b635-386630613965/Weigela_florida_Bris.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Дерен",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Дерен белый Элегантиссима (Cornus alba Elegantissima)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3136-3662-4266-a538-353264666466/CORNUS_ALBA_ELEGANTI.jpg"
+      },
+      {
+        "name": "Дерен белый Айвори Хало (Cornus alba Ivory Halo)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3564-6538-4433-a639-626163376363/Cornus_alba_Ivory_Ha.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Диервилла",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Диервилла Кул Слэш (Diervilla Cool Splash)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3066-3765-4531-a531-303261396663/Diervilla_Cool_Splas.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Кизил",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Кизил обыкновенный (Cornus mas Kasanlak)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6133-3032-4132-a537-383133613465/Cornus_mas_Kasanlak.jpg"
+      },
+      {
+        "name": "Кизил обыкновенный Вариегата (Cornus mas Variegata)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6536-3638-4731-b038-393534306136/Cornus_mas_Variegata.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Лаванда",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Лаванда узколистная (Lavandula angustifolia)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3637-3965-4231-a137-303664353438/Lavandula_angustifol.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Пион",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Пион древовидный (Paeonia suffruticosa)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6539-3138-4338-b662-336463333364/Paeonia_suffr_purple.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Пузыреплодник",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Пузыреплодник калинолистный Литл Девил (Physocarpus opulifolius Little Devil)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6437-6331-4432-b564-386538346435/Physocarpus_Little_D.jpg"
+      },
+      {
+        "name": "Пузыреплодник калинолистный Литл Ангел (Physocarpus opulifolius Little Angel)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6363-6536-4266-a434-343432643164/Physocarpus_op_Littl.jpg"
+      },
+      {
+        "name": "Пузыреплодник калинолистный Миднайт (Physocarpus opulifolius Midnight)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3965-3236-4464-b761-613161336539/Physocarpus_op_Midni.jpg"
+      },
+      {
+        "name": "Пузыреплодник калинолистный Дартс Голд (Physocarpus opulifolius Dart's Gold)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3561-3038-4863-b161-383437666361/Physocarpus_opulif_D.jpg"
+      },
+      {
+        "name": "Пузыреплодник калинолистный Диаболо (Physocarpus opulifolius Diabolo)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6362-6164-4233-b166-326661366237/Physocarpus_opulifol.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Самшит",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Самшит вечнозелёный Блауэр Хайнц (Buxus sempervirens Blauer Heinz)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6132-3833-4632-a364-393836393131/Buxus_semp_Blauer_He.jpg"
+      },
+      {
+        "name": "Самшит вечнозелёный Кинг Мидас (Buxus sempervirens King Midas)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6532-3365-4130-b365-353039663437/Buxus_sempervirens_K.jpg"
+      },
+      {
+        "name": "Самшит вечнозелёный (Buxus sempervirens)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3166-3331-4234-a634-343938366165/Buxus_sempervirens.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Скумпия",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Скумпия кожевенная Роял Перпл (Cotinus coggygria Royal Purple)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3638-3465-4237-b330-346134613565/Cotinus_cog_Royal_Pu.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Смородина",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Смородина красная Джонкер Ван Тетс (Ribes rubrum Jonkheer Van Tets)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild3235-6132-4531-a661-386531393162/Ribes_rubrum_Jonkhee.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Спирея",
+    "categoryName": "Кустарники",
+    "cards": [
+      {
+        "name": "Спирея тунберга (Spiraea thunbergii)",
+        "desc": "",
+        "img": "https://static.tildacdn.pro/tild6437-3137-4063-b462-663066383437/Spiraea_thunbergii.jpg"
+      }
+    ]
+  }
+]

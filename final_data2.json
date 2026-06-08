@@ -1,0 +1,399 @@
+[
+  {
+    "url": "https://pitomnik-kukushkin.kz/eli",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "ЕЛЬ ЭНГЕЛЬМАНА",
+        "img": "https://static.tildacdn.pro/tild6439-3732-4637-a632-663363316330/Picea_engelmannii_Gl.jpg"
+      },
+      {
+        "name": "ЕЛЬ ОБЫКНОВЕННАЯ",
+        "img": "https://static.tildacdn.pro/tild6563-3563-4932-a330-393661643166/Picea_abies_Ohlendor.jpg"
+      },
+      {
+        "name": "ЕЛЬ СИЗАЯ",
+        "img": "https://static.tildacdn.pro/tild3732-3033-4435-b663-363631363962/Picea_glauca_Sanders.jpg"
+      },
+      {
+        "name": "ЕЛЬ ВОСТОЧНАЯ",
+        "img": "https://static.tildacdn.pro/tild6535-3033-4162-a631-323934396363/Picea_orientalis_Aur.jpg"
+      },
+      {
+        "name": "ЕЛЬ КОЛЮЧАЯ",
+        "img": "https://static.tildacdn.pro/tild3366-6663-4938-a139-386537613834/Picea_pungens_Hoopsi.jpg"
+      },
+      {
+        "name": "ЕЛЬ СИТХИНСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3738-6631-4930-b839-393235363136/Picea_sitchensis_Ten.jpg"
+      },
+      {
+        "name": "ЕЛЬ ШРЕНКА",
+        "img": "https://static.tildacdn.pro/tild3633-3639-4930-b734-643536366662/Picea_schrenkiana.jpg"
+      },
+      {
+        "name": "ЕЛЬ СЕРБСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3662-3766-4565-b866-346336313838/Picea_omorika_Pendul.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/sosna",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "СОСНА ОБЫКНОВЕННАЯ",
+        "img": "https://static.tildacdn.pro/tild6335-3465-4432-b939-393630373835/Pinus_sylvestris.jpg"
+      },
+      {
+        "name": "СОСНА МЯГКАЯ",
+        "img": "https://static.tildacdn.pro/tild3035-6663-4364-b262-616238393036/Pinus_flexilis.jpg"
+      },
+      {
+        "name": "СОСНА ЧЕРНАЯ",
+        "img": "https://static.tildacdn.pro/tild3963-3038-4432-b866-663531326434/Pinus_nigra_Oregon_G.jpg"
+      },
+      {
+        "name": "СОСНА ШВЕРИНА",
+        "img": "https://static.tildacdn.pro/tild3265-6131-4633-b732-356236343364/Pinus_schwerinii.jpg"
+      },
+      {
+        "name": "СОСНА МЕЛКОЦВЕТКОВАЯ",
+        "img": "https://static.tildacdn.pro/tild6661-6233-4232-a636-353833643635/Pinus_parv_Cuddles.jpg"
+      },
+      {
+        "name": "СОСНА КЕДРОВЫЙ СТЛАНИК",
+        "img": "https://static.tildacdn.pro/tild6331-6462-4535-b864-396132306362/Pinus_pumila_Glauca.jpg"
+      },
+      {
+        "name": "СОСНА КЕДРОВАЯ ЕВРОПЕЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3239-3931-4433-b031-393061383733/Pinus_cembra_Glauca.jpg"
+      },
+      {
+        "name": "СОСНА ДЖЕФФРИ",
+        "img": "https://static.tildacdn.pro/tild3664-3333-4937-a332-633139393736/Pinus_jeffreyi.jpg"
+      },
+      {
+        "name": "СОСНА ГОРНАЯ",
+        "img": "https://static.tildacdn.pro/tild6633-6334-4533-b230-636361383438/Pinus_mugo_Jakobsen.jpg"
+      },
+      {
+        "name": "СОСНА ГИМАЛАЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3561-6165-4663-b265-343165363262/Pinus_wallichiana.jpg"
+      },
+      {
+        "name": "СОСНА ВЕЙМУТОВА",
+        "img": "https://static.tildacdn.pro/tild6433-6531-4237-a631-363565336435/Pinus_strobus.jpg"
+      },
+      {
+        "name": "СОСНА БЕЛОКОРАЯ",
+        "img": "https://static.tildacdn.pro/tild3635-3530-4062-a161-636338643030/Pinus_leucodermis.jpg"
+      },
+      {
+        "name": "СОСНА БЕЛАЯ КИТАЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3935-3039-4861-b731-313232653239/Pinus_armandii.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/pihta",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "ПИХТА БЛАГОРОДНАЯ",
+        "img": "https://static.tildacdn.pro/tild3234-6166-4336-a235-643030613535/Abies_procera_Glauca.jpg"
+      },
+      {
+        "name": "ПИХТА БЕЛАЯ",
+        "img": "https://static.tildacdn.pro/tild3639-3934-4562-b932-303564386334/Abies_alba_Pyramidal.jpg"
+      },
+      {
+        "name": "ПИХТА ИСПАНСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3962-6261-4266-a561-323036326436/Abies_pinsapo_Aurea.jpg"
+      },
+      {
+        "name": "ПИХТА КОРЕЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild3331-6535-4764-a530-663732326362/Abies_koreana.jpg"
+      },
+      {
+        "name": "ПИХТА НОРДМАНА",
+        "img": "https://static.tildacdn.pro/tild3739-3534-4133-b361-383561613932/Abies_nordmanniana.jpg"
+      },
+      {
+        "name": "ПИХТА ОДНОЦВЕТНАЯ",
+        "img": "https://static.tildacdn.pro/tild3530-3565-4365-a538-393539353363/Abies_concolor.jpg"
+      },
+      {
+        "name": "ПИХТА СИБИРСКАЯ",
+        "img": "https://static.tildacdn.pro/tild6663-6362-4562-b964-653164343338/Abies_sibirica.jpg"
+      },
+      {
+        "name": "ПИХТА СУБАЛЬПИЙСКАЯ",
+        "img": "https://static.tildacdn.pro/tild6437-3436-4433-a538-396333323738/Abies_lasiocarpa_Com.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/mozhevelnik",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "МОЖЖЕВЕЛЬНИК ВИРГИНСКИЙ",
+        "img": "https://static.tildacdn.pro/tild3032-3236-4935-a163-613161633731/juniperus_virginiana.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК ГОРИЗОНТАЛЬНЫЙ",
+        "img": "https://static.tildacdn.pro/tild3636-6561-4464-b438-633630656231/Juniperus_hor_Grey_P.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК КАЗАЦКИЙ",
+        "img": "https://static.tildacdn.pro/tild3363-6639-4739-b663-613436396562/Juniperus_sabina_Roc.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК КИТАЙСКИЙ",
+        "img": "https://static.tildacdn.pro/tild3532-6663-4934-a465-666533646236/Juniperus_chin_Blue_.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК ОБЫКНОВЕННЫЙ",
+        "img": "https://static.tildacdn.pro/tild3963-3561-4130-b930-326565393661/Juniperus_comm_Gold_.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК СКАЛЬНЫЙ",
+        "img": "https://static.tildacdn.pro/tild3831-3765-4634-b038-366164303632/Juniperus_scop_Pathf.jpg"
+      },
+      {
+        "name": "МОЖЖЕВЕЛЬНИК СРЕДНИЙ",
+        "img": "https://static.tildacdn.pro/tild6466-3632-4963-a231-376165313033/Juniperus_med_King_o.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/tis",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "ТИС ЯГОДНЫЙ",
+        "img": "https://static.tildacdn.pro/tild3032-6664-4565-a461-623261636236/Taxus_baccata_David.jpg"
+      },
+      {
+        "name": "ТИС СРЕДНИЙ",
+        "img": "https://static.tildacdn.pro/tild3232-3761-4538-a231-323430393764/Taxus_media_Hillii.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/tsuga_kanadskaya",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/tuya_zapadnaya",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/platikladus",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/psevdotsuga_menzisa",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/kiparisovik_lousona",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/golovchatotis",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/gingko",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2891467.html",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "МАГНОЛИЯ ЗВЕЗДЧАТАЯ",
+        "img": "https://static.tildacdn.pro/tild6564-6338-4266-a138-323631663961/Magnolia_stellata_Ro.jpg"
+      },
+      {
+        "name": "МАГНОЛИЯ КОБУС",
+        "img": "https://static.tildacdn.pro/tild3231-6135-4238-b332-356431636535/Magnolia_kobus.jpg"
+      },
+      {
+        "name": "МАГНОЛИЯ ЛИЛИЕЦВЕТНАЯ НИГРА",
+        "img": "https://static.tildacdn.pro/tild6634-6133-4530-b937-343134663363/Magnolia_nigra.jpg"
+      },
+      {
+        "name": "МАГНОЛИЯ СУЛАНЖА",
+        "img": "https://static.tildacdn.pro/tild3534-6132-4531-b364-376565336233/Magnolia_soulangeana.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2841198.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887596.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887931.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2886792.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887632.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887973.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2886938.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887655.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887292.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887696.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887468.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887733.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2888019.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887545.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2887781.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2891826.html",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "БАРБАРИС ТУНБЕРГА",
+        "img": "https://static.tildacdn.pro/tild3861-6530-4661-b839-333135396431/Berberis_thunb_Orang.jpg"
+      },
+      {
+        "name": "БАРБАРИС ОТТАВСКИЙ",
+        "img": "https://static.tildacdn.pro/tild3839-3334-4162-b935-396166633631/Berberis_ottawensis_.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2891882.html",
+    "title": "Ель",
+    "cards": [
+      {
+        "name": "ГОРТЕНЗИЯ КРУПНОЛИСТНАЯ",
+        "img": "https://static.tildacdn.pro/tild6431-6137-4763-b763-633863333837/Hydrangea_macrophyll.jpg"
+      },
+      {
+        "name": "ГОРТЕНЗИЯ МЕТЕЛЬЧАТАЯ",
+        "img": "https://static.tildacdn.pro/tild6534-3139-4161-a361-353031663930/Hydrangea_pan_Annabe.jpg"
+      }
+    ]
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890693.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890717.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890727.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890734.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890751.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890756.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890813.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890791.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890757.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2890764.html",
+    "title": "Ель",
+    "cards": []
+  },
+  {
+    "url": "https://pitomnik-kukushkin.kz/page2891069.html",
+    "title": "Ель",
+    "cards": []
+  }
+]

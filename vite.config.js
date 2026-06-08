@@ -1,8 +1,8 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
-export default defineConfig({
-  base: '/pitomnik/',
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/pitomnik/' : '/',
   root: '.',
   publicDir: 'public',
   build: {
@@ -22,4 +22,4 @@ export default defineConfig({
     port: 3000,
     open: true
   }
-})
+}))

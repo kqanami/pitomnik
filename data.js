@@ -1427,7 +1427,7 @@ CATEGORIES.forEach(cat => {
         GALLERY_IMAGES.push({
           src: v.image,
           name: v.name,
-          link: `/catalog.html?cat=${cat.id}&group=${g.id}&variety=${v.id}`
+          link: `./catalog.html?cat=${cat.id}&group=${g.id}&variety=${v.id}`
         });
       }
     });

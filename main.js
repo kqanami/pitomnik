@@ -130,7 +130,7 @@ function initHome() {
   if (catGrid) {
     CATEGORIES.forEach((cat, i) => {
       const card = document.createElement('a');
-      card.href = `/catalog.html?cat=${cat.id}`;
+      card.href = `./catalog.html?cat=${cat.id}`;
       card.className = `cat-card reveal hover-glow delay-${i % 4}`;
       card.innerHTML = `
         <img src="${cat.groups && cat.groups[0] ? cat.groups[0].image : './images/04052018_261.jpg'}" alt="${cat.name}" class="cat-card__img" loading="${i < 2 ? 'eager' : 'lazy'}">
@@ -175,7 +175,7 @@ function initHome() {
 
     featured.slice(0, 8).forEach((plant, i) => {
       const card = document.createElement('a');
-      card.href = `/catalog.html?cat=${plant.catId}&group=${plant.groupId}&variety=${plant.id}`;
+      card.href = `./catalog.html?cat=${plant.catId}&group=${plant.groupId}&variety=${plant.id}`;
       card.className = `plant-card reveal hover-lift delay-${i % 5}`;
       card.innerHTML = `
         <div style="overflow:hidden; border-radius: 16px 16px 0 0;">

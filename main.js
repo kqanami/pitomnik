@@ -458,6 +458,8 @@ function initCatalog() {
   };
 
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closePlant(); });
+
+  window.renderCategory = renderCategory;
 }
 
 // ═══════════════════════════════════════
@@ -517,6 +519,7 @@ function initGallery() {
   window.lightboxNext = () => {
     openLightbox((currentIdx + 1) % GALLERY_IMAGES.length);
   };
+  window.openLightbox = openLightbox;
 
   lightbox?.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
   document.addEventListener('keydown', e => {
@@ -555,12 +558,12 @@ function initContacts() {
   });
 }
 
-// Expose functions to window for inline onclick handlers
-window.renderCategory = renderCategory;
-window.renderGroup = renderGroup;
-window.openVariety = openVariety;
-window.closePlant = closePlant;
-window.openLightbox = openLightbox;
-window.closeLightbox = closeLightbox;
-window.lightboxNext = lightboxNext;
-window.lightboxPrev = lightboxPrev;
+
+
+
+
+
+
+
+
+

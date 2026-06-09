@@ -1182,6 +1182,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .home-about__img-float { display: none; }
   .home-about__badge { left: 0; }
   h1, h2, h3 { hyphens: auto; }
+  .reveal.reveal--left, .reveal.reveal--right { transform: translateY(30px) !important; }
 }
 @media (max-width: 480px) {
   .gallery-masonry { columns: 1; }

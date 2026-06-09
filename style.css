@@ -1167,13 +1167,17 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .nav-links, .nav-cta { display: none; }
   .nav-hamburger { display: flex; }
   :root { --space-xl: 3.5rem; --space-lg: 2.5rem; --space-md: 1.5rem; }
-  .container { padding: 0 1.25rem; }
   .home-hero__title { font-size: clamp(2.2rem, 9vw, 3.5rem); }
-  .section-title { font-size: clamp(2rem, 7vw, 2.5rem); }
+  .section-title { font-size: clamp(2rem, 7vw, 2.5rem); text-align: center; }
+  .section-desc { text-align: center; margin-left: auto; margin-right: auto; }
+  .section-tag { justify-content: center; }
+  .container { padding: 0 1.25rem; text-align: center; }
   .home-cta__inner { flex-direction: column; text-align: center; }
   .home-cta__actions { justify-content: center; width: 100%; }
-  .footer-grid { grid-template-columns: 1fr; gap: var(--space-md); }
+  .footer-grid { grid-template-columns: 1fr; gap: var(--space-md); text-align: center; }
   .footer-bottom { flex-direction: column; text-align: center; }
+  .footer-widget p { margin: 0 auto 1.5rem auto; }
+  .social-links { justify-content: center; }
   .gallery-masonry { columns: 2; }
   .home-about__img-float { display: none; }
   .home-about__badge { left: 0; }

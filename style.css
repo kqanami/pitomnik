@@ -336,23 +336,30 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 
 .nav-hamburger {
   display: none;
-  flex-direction: column;
-  gap: 5px;
-  width: 34px;
   cursor: pointer;
-  padding: 4px;
+  padding: 0.5rem 1.2rem;
+  background: var(--glass-white);
+  border-radius: var(--radius-xl);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
 }
-.nav-hamburger span {
-  display: block;
-  height: 2px;
-  border-radius: 2px;
-  background: var(--clr-forest);
-  transition: var(--dur-md) var(--ease-out);
+.nav-hamburger span { display: none !important; }
+.nav-hamburger::after {
+  content: 'Меню';
+  font-family: var(--ff-heading);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--clr-forest);
 }
-.site-nav:not(.nav-scrolled) .nav-hamburger span { background: #fff; }
-.nav-hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
-.nav-hamburger.open span:nth-child(2) { opacity: 0; }
-.nav-hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+.site-nav:not(.nav-scrolled) .nav-hamburger {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.site-nav:not(.nav-scrolled) .nav-hamburger::after { color: #fff; }
+.nav-hamburger.open::after { content: 'Закрыть'; }
 
 /* Animation Toggle Button */
 .btn-animations {

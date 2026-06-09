@@ -1169,6 +1169,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .nav-hamburger { display: flex; }
   :root { --space-xl: 3.5rem; --space-lg: 2.5rem; --space-md: 1.5rem; }
   .home-hero__title { font-size: clamp(2.2rem, 9vw, 3.5rem); }
+  .page-hero__title { font-size: clamp(1.8rem, 8vw, 3rem); }
   .section-title { font-size: clamp(2rem, 7vw, 2.5rem); text-align: center; }
   .section-desc { text-align: center; margin-left: auto; margin-right: auto; }
   .section-tag { justify-content: center; }

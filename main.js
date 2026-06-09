@@ -554,3 +554,13 @@ function initContacts() {
     setTimeout(() => { btn.textContent = 'Отправить сообщение'; btn.disabled = false; form.reset(); }, 3000);
   });
 }
+
+// Expose functions to window for inline onclick handlers
+window.renderCategory = renderCategory;
+window.renderGroup = renderGroup;
+window.openVariety = openVariety;
+window.closePlant = closePlant;
+window.openLightbox = openLightbox;
+window.closeLightbox = closeLightbox;
+window.lightboxNext = lightboxNext;
+window.lightboxPrev = lightboxPrev;

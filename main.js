@@ -317,10 +317,10 @@ function initCatalog() {
     if (cat.coming_soon) {
       plantsGrid.innerHTML = `
         <div style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem;">
-          <div style="font-size: 4rem; margin-bottom: 1rem;">🍓</div>
+          <div style="font-size: 4rem; margin-bottom: 1rem;"><svg style="margin-bottom:-3px; margin-right:4px;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 12v.01"/></svg> </div>
           <h3 style="font-size: 2rem; color: var(--clr-forest); margin-bottom: 1rem;">Скоро в наличии</h3>
           <p style="color: var(--clr-moss); max-width: 40ch; margin: 0 auto 2rem;">Раздел ягодных растений пополняется. Уточните актуальный ассортимент по телефону.</p>
-          <a href="tel:+77022100042" class="btn btn-forest">📞 +7 (702) 210 00 42</a>
+          <a href="tel:+77022100042" class="btn btn-forest"><svg style="margin-bottom:-3px; margin-right:4px;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +7 (702) 210 00 42</a>
         </div>
       `;
       return;

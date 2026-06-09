@@ -106,10 +106,10 @@ function initHome() {
   // Hero parallax background rotation
   const heroBg = document.getElementById('heroBg');
   const heroImages = [
-    '/images/04052018_261.jpg',
-    '/images/04052018_132.jpg',
-    '/images/Abies_koreana.jpg',
-    '/images/04052018_238.jpg',
+    './images/04052018_261.jpg',
+    './images/04052018_132.jpg',
+    './images/Abies_koreana.jpg',
+    './images/04052018_238.jpg',
   ];
   let heroIdx = 0;
   if (heroBg) {
@@ -133,7 +133,7 @@ function initHome() {
       card.href = `/catalog.html?cat=${cat.id}`;
       card.className = `cat-card reveal hover-glow delay-${i % 4}`;
       card.innerHTML = `
-        <img src="${cat.groups && cat.groups[0] ? cat.groups[0].image : '/images/04052018_261.jpg'}" alt="${cat.name}" class="cat-card__img" loading="${i < 2 ? 'eager' : 'lazy'}">
+        <img src="${cat.groups && cat.groups[0] ? cat.groups[0].image : './images/04052018_261.jpg'}" alt="${cat.name}" class="cat-card__img" loading="${i < 2 ? 'eager' : 'lazy'}">
         <div class="cat-card__overlay"></div>
         <div class="cat-card__content">
           <div class="cat-card__label">Категория</div>
@@ -251,7 +251,7 @@ function initCatalog() {
     plantsGrid.innerHTML = '';
 
     if (activeCat === 'all') {
-      if (catHero) catHero.style.backgroundImage = `url('/images/04052018_261.jpg')`;
+      if (catHero) catHero.style.backgroundImage = `url('./images/04052018_261.jpg')`;
       if (catTitle) catTitle.textContent = 'Все растения';
       if (catDesc) catDesc.textContent = 'Ознакомьтесь со всем ассортиментом нашего питомника';
 
@@ -292,7 +292,7 @@ function initCatalog() {
     if (!cat) return;
 
     if (catHero) {
-      catHero.style.backgroundImage = `url('${cat.groups && cat.groups[0] ? cat.groups[0].image : '/images/04052018_261.jpg'}')`;
+      catHero.style.backgroundImage = `url('${cat.groups && cat.groups[0] ? cat.groups[0].image : './images/04052018_261.jpg'}')`;
       if (catTitle) catTitle.textContent = cat.name;
       if (catDesc) catDesc.textContent = '';
     }

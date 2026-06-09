@@ -62,14 +62,14 @@
 
 /* ─── Reset ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; max-width: 100%; }
+html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; width: 100%; }
 body {
   font-family: var(--ff-body);
   background: var(--clr-cream);
   color: var(--clr-dark);
   line-height: 1.7;
   overflow-x: hidden;
-  max-width: 100%;
+  width: 100%;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
@@ -80,8 +80,8 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 
 /* ─── Layout Helpers ─── */
 .container { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--space-md); }
-.section { padding: var(--space-xl) 0; }
-.section-sm { padding: var(--space-lg) 0; }
+.section { padding: var(--space-xl) 0; overflow-x: hidden; width: 100%; }
+.section-sm { padding: var(--space-lg) 0; overflow-x: hidden; width: 100%; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-md); }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-md); }

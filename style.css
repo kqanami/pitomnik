@@ -62,13 +62,15 @@
 
 /* ─── Reset ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; max-width: 100%; }
 body {
   font-family: var(--ff-body);
   background: var(--clr-cream);
   color: var(--clr-dark);
   line-height: 1.7;
   overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
   -webkit-font-smoothing: antialiased;
 }
 img { display: block; max-width: 100%; }
@@ -1174,6 +1176,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .home-stats__grid { grid-template-columns: 1fr 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .plants-grid { grid-template-columns: 1fr; }
+  .home-hero__content { padding: 0 1rem; }
   .home-hero__actions { flex-direction: column; align-items: stretch; width: 100%; gap: 1rem; }
   .home-hero__actions .btn { width: 100%; justify-content: center; }
 }

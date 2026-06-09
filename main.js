@@ -31,19 +31,24 @@ document.addEventListener('DOMContentLoaded', () => {
 // NAVIGATION
 // ═══════════════════════════════════════
 function initNav() {
-  const nav = document.getElementById('nav');
   const hamburger = document.getElementById('hamburger');
   const drawer = document.getElementById('navDrawer');
   const overlay = document.getElementById('navOverlay');
 
-  // Scroll behaviour
-  let lastY = 0;
-  window.addEventListener('scroll', () => {
-    const y = window.scrollY;
-    if (y > 60) nav.classList.add('nav-scrolled');
-    else nav.classList.remove('nav-scrolled');
-    lastY = y;
-  }, { passive: true });
+  // Sticky nav
+  const nav = document.getElementById('nav');
+  if (nav) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        nav.classList.add('nav-scrolled');
+      } else {
+        nav.classList.remove('nav-scrolled');
+      }
+    }, { passive: true });
+    
+    // Trigger on load in case we started halfway down
+    if (window.scrollY > 50) nav.classList.add('nav-scrolled');
+  }
 
   // Hamburger
   hamburger?.addEventListener('click', () => {
